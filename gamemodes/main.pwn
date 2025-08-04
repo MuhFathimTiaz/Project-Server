@@ -1,5 +1,5 @@
 // Tes commit webhook Discord
-#pragma warning disable 203
+//#pragma warning disable 203
 #define CGEN_MEMORY 40000
 #define YSI_NO_HEAP_MALLOC
 

@@ -3,3 +3,4 @@
 #include "core/cmds/cmds_player"
 #include "core/cmds/cmds_roleplay"
 #include "core/cmds/DISCORD"
+#include "core/cmds/cmds_vehicle"
