@@ -1,0 +1,9 @@
+UPDATE REMAKE GM GRIFFIN BY Yeee
+
+- fix database player
+- delete screen login/register
+- improved discord feature
+- delete gangzone map
+- delete beberapa berbau jebakan haram :v
+
+Note : segitu dulu ya, kalo ada bug fix sendiri wkwk

@@ -1,0 +1,1963 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:23:38] language = ""  (string)
+[17:23:38] 
+[17:23:38] Server Plugins
+[17:23:38] --------------
+[17:23:38]  Loading plugin: crashdetect
+[17:23:38]   CrashDetect plugin 4.21
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: KeyListener
+[17:23:38] KeyListener v1.1.2 by MOR loaded
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: SKY
+[17:23:38] 
+[17:23:38]  ===============================
+[17:23:38]    
+[17:23:38]    < SKY - 2.3.0 >
+[17:23:38]    
+[17:23:38]    (c) 2008 - Present | YSF Maintainers
+[17:23:38]    (c) 2015 | Oscar "Slice" Broman
+[17:23:38]    
+[17:23:38]    Server Version: 0.3.7 R2
+[17:23:38]    Operating System: Windows
+[17:23:38]    Built on: Jan 21 2025 at 03:38:30
+[17:23:38]    
+[17:23:38]  ===============================
+[17:23:38] 
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: mysql
+[17:23:38]  >> plugin.mysql: R41-4 successfully loaded.
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: streamer
+[17:23:38] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: sscanf
+[17:23:38] 
+[17:23:38]  ===============================
+[17:23:38] 
+[17:23:38]       sscanf plugin loaded.     
+[17:23:38] 
+[17:23:38]          Version: 2.13.8
+[17:23:38] 
+[17:23:38]    (c) 2022 Alex "Y_Less" Cole  
+[17:23:38] 
+[17:23:38]  ===============================
+[17:23:38] 
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: samp_bcrypt
+[17:23:38] [SampBcrypt] [info]: Version: 0.3.4
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: textdraw-streamer
+[17:23:38] 
+[17:23:38]  ===============================
+[17:23:38]                                 
+[17:23:38]     Textdraw Streamer Yuklendi  
+[17:23:38]                                 
+[17:23:38]           Surum: v1.6.2            
+[17:23:38]                                 
+[17:23:38]     Developer: Burak (NexoR)    
+[17:23:38]                                 
+[17:23:38]  ===============================
+[17:23:38] 
+[17:23:38]   Loaded.
+[17:23:38]  Loading plugin: discord-connector
+[17:24:00]  >> discord-connector: timeout while initializing data.
+[17:24:00]                          plugin will proceed to retry connecting in the background.
+[17:24:00]   Loaded.
+[17:24:00]  Loaded 9 plugins.
+
+[17:24:00] 
+[17:24:00] Filterscripts
+[17:24:00] ---------------
+[17:24:00]   Loading filterscript 'mapping.amx'...
+[17:24:00]  
+[17:24:00]  
+[17:24:00]          ==============================================================
+[17:24:00]          |                                                            |
+[17:24:00]          |                                                            |
+[17:24:00]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[17:24:00]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[17:24:00]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[17:24:00]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[17:24:00]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[17:24:00]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[17:24:00]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[17:24:00]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[17:24:00]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[17:24:00]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[17:24:00]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:24:00]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:24:00]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[17:24:00]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[17:24:00]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[17:24:00]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[17:24:00]          |                                                            |
+[17:24:00]          |                                                            |
+[17:24:00]          |                      (c) 2021 MPL v1.1                     |
+[17:24:00]          |            Alex "Y_Less" Cole and contributors.            |
+[17:24:00]          |                                                            |
+[17:24:00]          |                                                            |
+[17:24:00]          ==============================================================
+[17:24:00]  
+[17:24:00]  
+[17:24:00]  ========================================== 
+[17:24:00]  |                                        | 
+[17:24:00]  |   Generating code, this may take a     | 
+[17:24:00]  |  little bit of time.  Note that this   | 
+[17:24:00]  |  code generation works best with the   | 
+[17:24:00]  |     JIT plugin, which you are not      | 
+[17:24:00]  |     currently using.  Get it here:     | 
+[17:24:00]  |                                        | 
+[17:24:00]  |       https://git.io/jit-plugin        | 
+[17:24:00]  |                                        | 
+[17:24:00]  |             Please wait...             | 
+[17:24:00]  |                                        | 
+[17:24:00]  |             Done in 0ms!               | 
+[17:24:00]  |                                        | 
+[17:24:00]  ========================================== 
+[17:24:00]  |                                        | 
+[17:24:00]  | Server:      0.3.7-R2 (W)              | 
+[17:24:00]  | Started:     14 Jul 2025 - 17:24:00    | 
+[17:24:00]  |                                        | 
+[17:24:00]  | Compiler:    3.10.08 (Windows)         | 
+[17:24:00]  | Includes:    0.3DL                     | 
+[17:24:00]  | Codepage:    <none>                    | 
+[17:24:00]  | Built:       14 Jul 2025 - 17:21:32    | 
+[17:24:00]  |                                        | 
+[17:24:00]  | YSI:         v05.10.0006               | 
+[17:24:00]  | Master:      -1                        | 
+[17:24:00]  |                                        | 
+[17:24:00]  | JIT:         <none>                    | 
+[17:24:00]  | Crashdetect: <found>                   | 
+[17:24:00]  |                                        | 
+[17:24:00]  ========================================== 
+[17:24:00]  
+[17:24:00]  
+[17:24:00]   Loading filterscript 'hotkeys.amx'...
+[17:24:00] -------------------- [GRIFFIN Hotkeys System] --------------------
+===>> Berhasil dimuat dengan baik!
+===>> by: Griffin (Yeee Pro)
+===>> dipersembahkan untuk GRIFFIN
+-------------------------------------------------------------------
+[17:24:00]   Loaded 2 filterscripts.
+
+[17:24:00]  
+[17:24:00]  
+[17:24:00]          ==============================================================
+[17:24:00]          |                                                            |
+[17:24:00]          |                                                            |
+[17:24:00]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[17:24:00]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[17:24:00]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[17:24:00]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[17:24:00]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[17:24:00]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[17:24:00]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[17:24:00]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[17:24:00]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[17:24:00]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[17:24:00]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:24:00]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:24:00]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[17:24:00]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[17:24:00]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[17:24:00]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[17:24:00]          |                                                            |
+[17:24:00]          |                                                            |
+[17:24:00]          |                      (c) 2021 MPL v1.1                     |
+[17:24:00]          |            Alex "Y_Less" Cole and contributors.            |
+[17:24:00]          |                                                            |
+[17:24:00]          |                                                            |
+[17:24:00]          ==============================================================
+[17:24:00]  
+[17:24:00]  
+[17:24:00]  ========================================== 
+[17:24:00]  |                                        | 
+[17:24:00]  |   Generating code, this may take a     | 
+[17:24:00]  |  little bit of time.  Note that this   | 
+[17:24:00]  |  code generation works best with the   | 
+[17:24:00]  |     JIT plugin, which you are not      | 
+[17:24:00]  |     currently using.  Get it here:     | 
+[17:24:00]  |                                        | 
+[17:24:00]  |       https://git.io/jit-plugin        | 
+[17:24:00]  |                                        | 
+[17:24:00]  |             Please wait...             | 
+[17:24:02]  |                                        | 
+[17:24:02]  |             Done in 2141ms!            | 
+[17:24:02]  |                                        | 
+[17:24:02]  ========================================== 
+[17:24:02]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[17:24:02] *** YSI Info: Script ID: 1
+[17:24:02]  |                                        | 
+[17:24:02]  | Server:      0.3.7-R2 (W)              | 
+[17:24:02]  | Started:     14 Jul 2025 - 17:24:00    | 
+[17:24:02]  |                                        | 
+[17:24:02]  | Compiler:    3.10.08 (Windows)         | 
+[17:24:02]  | Includes:    0.3DL                     | 
+[17:24:02]  | Codepage:    <none>                    | 
+[17:24:02]  | Built:       14 Jul 2025 - 17:23:02    | 
+[17:24:02]  |                                        | 
+[17:24:02]  | YSI:         v05.10.0006               | 
+[17:24:02]  | Master:      1                         | 
+[17:24:02]  |                                        | 
+[17:24:02]  | JIT:         <none>                    | 
+[17:24:02]  | Crashdetect: <found>                   | 
+[17:24:02]  |                                        | 
+[17:24:02]  ========================================== 
+[17:24:02]  
+[17:24:02]  
+[17:24:02] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3 DL by Abyss Morgan
+[17:24:02] [MySQL] Koneksi ke database berhasil!
+[17:24:02] [Anti-DDoS SA-MP] Telah berhasil dimuat dengan lancar.
+[17:24:02] |----------------------------------|
+[17:24:02] | GRIFFIN Premiere | A4-RC-Version |
+[17:24:02] |----------------------------------|
+[17:24:02] Number of vehicle models: 4
+[17:24:02] [Dynamic Doors] Jumlah total Doors yang dimuat: 43.
+[17:24:03] [Dynamic Garbages] Jumlah total Garbages Bin yang dimuat: 497.
+[17:24:03] [Dynamic Shops] Jumlah total Shops yang dimuat: 43.
+[17:24:03] [Dynamic Fivem Labels] The total number of Fivem Labels loaded: 1.
+[17:24:03] [Dynamic Public Garages] Jumlah total Public Garages yang dimuat: 33.
+[17:24:03] [Dynamic Rentals] Total number of loaded Rentals: 6.
+[17:24:03] [Dynamic Actors] Jumlah total Actors yang dimuat: 99.
+[17:24:03] [Dynamic ATM] Jumlah total ATM yang dimuat: 55.
+[17:24:03] [Dynamic Bank Point] Jumlah total bank point yang dimuat: 8.
+[17:24:03] [Dynamic Vending] Total dynamic vending loaded: 50.
+[17:24:03] [Dynamic Robberies] Jumlah total Robberies yang dimuat: 21.
+[17:24:03] [Dynamic Map Icons] Jumlah total map icons yang dimuat: 49.
+[17:24:03] [Dynamic Rusun] Total number of rusun loaded: 72.
+[17:24:03] [Dynamic Gudang] Total number of gudang loaded: 3.
+[17:24:03] [Dynamic Basement] Jumlah total basement yang dimuat: 1.
+[17:24:03] [Dynamic Buttons] Jumlah total buttons yang dimuat: 22.
+[17:24:03] [Dynamic Kanabis] Jumlah total Kanabis yang dimuat: 23.
+[17:24:03] [Dynamic Deers] Jumlah total Deers yang dimuat: 100.
+[17:24:03] [Dynamic Families] Jumlah total Family yang dimuat: 1.
+[17:24:03] [Dynamic Locker] Jumlah total Locker yang dimuat: 11.
+[17:24:03] [Dynamic Fact Craft] Jumlah total Fact Craft yang dimuat: 1.
+[17:24:03] [Dynamic Armoury] Jumlah total Armoury yang dimuat: 3.
+[17:24:03] [Dynamic Faction Vault] Jumlah total Faction Vault yang dimuat: 11.
+[17:24:03] [Dynamic Faction Garage] Jumlah total Faction Garage yang dimuat: 11.
+[17:24:03] [Dynamic Roadsigns] Total dynamic road sign loaded: 747.
+[17:24:03] [Dynamic Speed Cam] Total dynamic speed cam loaded: 127.
+[17:24:03] [Dynamic Blackjack] Jumlah total Blackjack Table yang dimuat: 18.
+[17:24:03] [Stuffs] Server Stuff berhasil dimuat...
+[17:24:03] [Farm Plants] Jumlah total farm plants yang dimuat: 1.
+[17:24:32] [connection] incoming connection: 192.168.55.245:54626 id: 0
+[17:24:33] [join] Ryuxi has joined the server (0:192.168.55.245)
+[17:24:40] [part] Ryuxi has left the server (0:2)
+[17:25:48] [connection] incoming connection: 192.168.55.245:49893 id: 0
+[17:25:48] [join] Ryuxi has joined the server (0:192.168.55.245)
+[17:25:57] [nick] Ryuxi nick changed to Ryuxi_Mozaya
+[17:25:57] [Player Weapons] Total number of weapons loaded for Ryuxi [DBID: 1]: 1.
+[17:25:57] [Player Inventory] Total number of inventory items loaded for Ryuxi [DBID: 1]: 7.
+[17:25:57] [Player Contacts] Jumlah total Contacts yang dimuat untuk Ryuxi [DBID: 1]: 1.
+[17:25:57] [Player Smartphone Loaded] Ryuxi [DBID: 1]
+[17:25:57] [Player Vehicle] Jumlah total Vehicle yang dimuat untuk Ryuxi [DBID: 1]: 1.
+[17:36:30] [part] Ryuxi_Mozaya has left the server (0:1)
+[17:38:13] [connection] incoming connection: 192.168.55.245:57733 id: 0
+[17:38:13] [join] Ryuxi has joined the server (0:192.168.55.245)
+[17:38:23] [nick] Ryuxi nick changed to Ryuxi_Mozaya
+[17:38:23] [Player Contacts] Jumlah total Contacts yang dimuat untuk Ryuxi [DBID: 1]: 1.
+[17:38:23] [Player Weapons] Total number of weapons loaded for Ryuxi [DBID: 1]: 1.
+[17:38:23] [Player Inventory] Total number of inventory items loaded for Ryuxi [DBID: 1]: 7.
+[17:38:23] [Player Smartphone Loaded] Ryuxi [DBID: 1]
+[17:38:23] [Player Vehicle] Jumlah total Vehicle yang dimuat untuk Ryuxi [DBID: 1]: 1.
+[17:39:45] [chat] [Ryuxi_Mozaya]: v
+[17:42:50] [part] Ryuxi_Mozaya has left the server (0:1)
+[17:43:16] [connection] incoming connection: 192.168.55.245:54608 id: 0
+[17:43:16] [join] Griffin has joined the server (0:192.168.55.245)
+[17:43:24] [nick] Griffin nick changed to Yee_DONG
+[17:43:24] [Player Inventory] Total number of inventory items loaded for Griffin [DBID: 7]: 3.
+[17:43:24] [Player Weapons] Total number of weapons loaded for Griffin [DBID: 7]: 1.
+[17:43:24] [Player Smartphone Loaded] Griffin [DBID: 7]
+[17:43:33] [nick] Yee_DONG nick changed to Griffin
+[17:43:33] [debug]
+[17:43:33] [debug] Parameter count corrections:
+[17:43:33] [debug]
+[17:43:33] [debug] The 1st mangled arguments (e.g. `<1073741823 arguments>`) below should read `<2 arguments>`
+[17:43:33] [debug] Parameter count loop detected.
+[17:43:33] [debug]
+[17:43:33] [debug] Run time error 4: "Array index out of bounds"
+[17:43:33] [debug]  Attempted to read/write array element at index 99 in array of size 7
+[17:43:33] [debug] AMX backtrace:
+[17:43:33] [debug] #0 006663f8 in GetAdminLevel (playerid=0) at core/systems\systems_natives.inc:3082
+[17:43:33] [debug] #1 0073b930 in ?? (0, 17586360, 0) at core/admin/admin_lv1.inc:558
+[17:43:33] [debug] #2 0005e35c in e_COMMAND_ERRORS:Command_ReProcess__ (playerid=0, cmdtext[]=@05aa03bc "/aduty", help=0) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:1132
+[17:43:33] [debug] #3 00063d7c in _@yHOnPlayerCommandText@000 (playerid=0, cmdtext[]=@05aa03bc "/aduty") <@Z:> at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:2478
+[17:43:33] [debug] #4 000472a4 in public OnPlayerCommandText (0, 95028156) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\..\..\YSI_Coding\y_hooks\..\y_cgen\y_cgen_impl.inc:157
+[17:44:23] [part] Griffin has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:57:37] language = ""  (string)
+[17:57:37] 
+[17:57:37] Server Plugins
+[17:57:37] --------------
+[17:57:37]  Loading plugin: crashdetect
+[17:57:37]   CrashDetect plugin 4.21
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: KeyListener
+[17:57:37] KeyListener v1.1.2 by MOR loaded
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: SKY
+[17:57:37] 
+[17:57:37]  ===============================
+[17:57:37]    
+[17:57:37]    < SKY - 2.3.0 >
+[17:57:37]    
+[17:57:37]    (c) 2008 - Present | YSF Maintainers
+[17:57:37]    (c) 2015 | Oscar "Slice" Broman
+[17:57:37]    
+[17:57:37]    Server Version: 0.3.7 R2
+[17:57:37]    Operating System: Windows
+[17:57:37]    Built on: Jan 21 2025 at 03:38:30
+[17:57:37]    
+[17:57:37]  ===============================
+[17:57:37] 
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: mysql
+[17:57:37]  >> plugin.mysql: R41-4 successfully loaded.
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: streamer
+[17:57:37] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: sscanf
+[17:57:37] 
+[17:57:37]  ===============================
+[17:57:37] 
+[17:57:37]       sscanf plugin loaded.     
+[17:57:37] 
+[17:57:37]          Version: 2.13.8
+[17:57:37] 
+[17:57:37]    (c) 2022 Alex "Y_Less" Cole  
+[17:57:37] 
+[17:57:37]  ===============================
+[17:57:37] 
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: samp_bcrypt
+[17:57:37] [SampBcrypt] [info]: Version: 0.3.4
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: textdraw-streamer
+[17:57:37] 
+[17:57:37]  ===============================
+[17:57:37]                                 
+[17:57:37]     Textdraw Streamer Yuklendi  
+[17:57:37]                                 
+[17:57:37]           Surum: v1.6.2            
+[17:57:37]                                 
+[17:57:37]     Developer: Burak (NexoR)    
+[17:57:37]                                 
+[17:57:37]  ===============================
+[17:57:37] 
+[17:57:37]   Loaded.
+[17:57:37]  Loading plugin: discord-connector
+[17:57:58]  >> discord-connector: timeout while initializing data.
+[17:57:58]                          plugin will proceed to retry connecting in the background.
+[17:57:58]   Loaded.
+[17:57:58]  Loaded 9 plugins.
+
+[17:57:58] 
+[17:57:58] Filterscripts
+[17:57:58] ---------------
+[17:57:58]   Loading filterscript 'mapping.amx'...
+[17:57:59]  
+[17:57:59]  
+[17:57:59]          ==============================================================
+[17:57:59]          |                                                            |
+[17:57:59]          |                                                            |
+[17:57:59]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[17:57:59]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[17:57:59]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[17:57:59]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[17:57:59]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[17:57:59]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[17:57:59]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[17:57:59]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[17:57:59]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[17:57:59]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[17:57:59]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:57:59]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:57:59]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[17:57:59]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[17:57:59]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[17:57:59]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[17:57:59]          |                                                            |
+[17:57:59]          |                                                            |
+[17:57:59]          |                      (c) 2021 MPL v1.1                     |
+[17:57:59]          |            Alex "Y_Less" Cole and contributors.            |
+[17:57:59]          |                                                            |
+[17:57:59]          |                                                            |
+[17:57:59]          ==============================================================
+[17:57:59]  
+[17:57:59]  
+[17:57:59]  ========================================== 
+[17:57:59]  |                                        | 
+[17:57:59]  |   Generating code, this may take a     | 
+[17:57:59]  |  little bit of time.  Note that this   | 
+[17:57:59]  |  code generation works best with the   | 
+[17:57:59]  |     JIT plugin, which you are not      | 
+[17:57:59]  |     currently using.  Get it here:     | 
+[17:57:59]  |                                        | 
+[17:57:59]  |       https://git.io/jit-plugin        | 
+[17:57:59]  |                                        | 
+[17:57:59]  |             Please wait...             | 
+[17:57:59]  |                                        | 
+[17:57:59]  |             Done in 0ms!               | 
+[17:57:59]  |                                        | 
+[17:57:59]  ========================================== 
+[17:57:59]  |                                        | 
+[17:57:59]  | Server:      0.3.7-R2 (W)              | 
+[17:57:59]  | Started:     14 Jul 2025 - 17:57:59    | 
+[17:57:59]  |                                        | 
+[17:57:59]  | Compiler:    3.10.08 (Windows)         | 
+[17:57:59]  | Includes:    0.3DL                     | 
+[17:57:59]  | Codepage:    <none>                    | 
+[17:57:59]  | Built:       14 Jul 2025 - 17:21:32    | 
+[17:57:59]  |                                        | 
+[17:57:59]  | YSI:         v05.10.0006               | 
+[17:57:59]  | Master:      -1                        | 
+[17:57:59]  |                                        | 
+[17:57:59]  | JIT:         <none>                    | 
+[17:57:59]  | Crashdetect: <found>                   | 
+[17:57:59]  |                                        | 
+[17:57:59]  ========================================== 
+[17:57:59]  
+[17:57:59]  
+[17:57:59]   Loading filterscript 'hotkeys.amx'...
+[17:57:59] -------------------- [GRIFFIN Hotkeys System] --------------------
+===>> Berhasil dimuat dengan baik!
+===>> by: Griffin (Yeee Pro)
+===>> dipersembahkan untuk GRIFFIN
+-------------------------------------------------------------------
+[17:57:59]   Loaded 2 filterscripts.
+
+[17:57:59]  
+[17:57:59]  
+[17:57:59]          ==============================================================
+[17:57:59]          |                                                            |
+[17:57:59]          |                                                            |
+[17:57:59]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[17:57:59]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[17:57:59]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[17:57:59]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[17:57:59]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[17:57:59]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[17:57:59]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[17:57:59]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[17:57:59]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[17:57:59]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[17:57:59]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:57:59]          |           Y:::::Y                    S:::::S   I::::I      |
+[17:57:59]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[17:57:59]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[17:57:59]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[17:57:59]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[17:57:59]          |                                                            |
+[17:57:59]          |                                                            |
+[17:57:59]          |                      (c) 2021 MPL v1.1                     |
+[17:57:59]          |            Alex "Y_Less" Cole and contributors.            |
+[17:57:59]          |                                                            |
+[17:57:59]          |                                                            |
+[17:57:59]          ==============================================================
+[17:57:59]  
+[17:57:59]  
+[17:57:59]  ========================================== 
+[17:57:59]  |                                        | 
+[17:57:59]  |   Generating code, this may take a     | 
+[17:57:59]  |  little bit of time.  Note that this   | 
+[17:57:59]  |  code generation works best with the   | 
+[17:57:59]  |     JIT plugin, which you are not      | 
+[17:57:59]  |     currently using.  Get it here:     | 
+[17:57:59]  |                                        | 
+[17:57:59]  |       https://git.io/jit-plugin        | 
+[17:57:59]  |                                        | 
+[17:57:59]  |             Please wait...             | 
+[17:58:01]  |                                        | 
+[17:58:01]  |             Done in 2041ms!            | 
+[17:58:01]  |                                        | 
+[17:58:01]  ========================================== 
+[17:58:01]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[17:58:01] *** YSI Info: Script ID: 1
+[17:58:01]  |                                        | 
+[17:58:01]  | Server:      0.3.7-R2 (W)              | 
+[17:58:01]  | Started:     14 Jul 2025 - 17:57:59    | 
+[17:58:01]  |                                        | 
+[17:58:01]  | Compiler:    3.10.08 (Windows)         | 
+[17:58:01]  | Includes:    0.3DL                     | 
+[17:58:01]  | Codepage:    <none>                    | 
+[17:58:01]  | Built:       14 Jul 2025 - 17:57:19    | 
+[17:58:01]  |                                        | 
+[17:58:01]  | YSI:         v05.10.0006               | 
+[17:58:01]  | Master:      1                         | 
+[17:58:01]  |                                        | 
+[17:58:01]  | JIT:         <none>                    | 
+[17:58:01]  | Crashdetect: <found>                   | 
+[17:58:01]  |                                        | 
+[17:58:01]  ========================================== 
+[17:58:01]  
+[17:58:01]  
+[17:58:01] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3 DL by Abyss Morgan
+[17:58:01] [MySQL] Koneksi ke database berhasil!
+[17:58:01] [Anti-DDoS SA-MP] Telah berhasil dimuat dengan lancar.
+[17:58:01] |----------------------------------|
+[17:58:01] | GRIFFIN Premiere | A4-RC-Version |
+[17:58:01] |----------------------------------|
+[17:58:01] Number of vehicle models: 4
+[17:58:01] [Dynamic Doors] Jumlah total Doors yang dimuat: 43.
+[17:58:01] [Dynamic Garbages] Jumlah total Garbages Bin yang dimuat: 497.
+[17:58:01] [Dynamic Shops] Jumlah total Shops yang dimuat: 43.
+[17:58:01] [Dynamic Fivem Labels] The total number of Fivem Labels loaded: 1.
+[17:58:01] [Dynamic Public Garages] Jumlah total Public Garages yang dimuat: 33.
+[17:58:01] [Dynamic Rentals] Total number of loaded Rentals: 6.
+[17:58:01] [Dynamic Actors] Jumlah total Actors yang dimuat: 99.
+[17:58:01] [Dynamic ATM] Jumlah total ATM yang dimuat: 55.
+[17:58:01] [Dynamic Bank Point] Jumlah total bank point yang dimuat: 8.
+[17:58:01] [Dynamic Vending] Total dynamic vending loaded: 50.
+[17:58:01] [Dynamic Robberies] Jumlah total Robberies yang dimuat: 21.
+[17:58:01] [Dynamic Map Icons] Jumlah total map icons yang dimuat: 49.
+[17:58:01] [Dynamic Rusun] Total number of rusun loaded: 72.
+[17:58:01] [Dynamic Gudang] Total number of gudang loaded: 3.
+[17:58:01] [Dynamic Basement] Jumlah total basement yang dimuat: 1.
+[17:58:01] [Dynamic Buttons] Jumlah total buttons yang dimuat: 22.
+[17:58:01] [Dynamic Kanabis] Jumlah total Kanabis yang dimuat: 23.
+[17:58:01] [Dynamic Deers] Jumlah total Deers yang dimuat: 100.
+[17:58:01] [Dynamic Families] Jumlah total Family yang dimuat: 1.
+[17:58:01] [Dynamic Locker] Jumlah total Locker yang dimuat: 11.
+[17:58:01] [Dynamic Fact Craft] Jumlah total Fact Craft yang dimuat: 1.
+[17:58:01] [Dynamic Armoury] Jumlah total Armoury yang dimuat: 3.
+[17:58:01] [Dynamic Faction Vault] Jumlah total Faction Vault yang dimuat: 11.
+[17:58:01] [Dynamic Faction Garage] Jumlah total Faction Garage yang dimuat: 11.
+[17:58:02] [Dynamic Roadsigns] Total dynamic road sign loaded: 747.
+[17:58:02] [Dynamic Speed Cam] Total dynamic speed cam loaded: 127.
+[17:58:02] [Dynamic Blackjack] Jumlah total Blackjack Table yang dimuat: 18.
+[17:58:02] [Stuffs] Server Stuff berhasil dimuat...
+[17:58:02] [Farm Plants] Jumlah total farm plants yang dimuat: 1.
+[17:58:19] [connection] incoming connection: 192.168.55.245:59121 id: 0
+[17:58:19] [join] Griffin has joined the server (0:192.168.55.245)
+[17:58:28] [part] Griffin has left the server (0:2)
+[17:58:49] [connection] incoming connection: 192.168.55.245:49214 id: 0
+[17:58:50] [join] Griffin has joined the server (0:192.168.55.245)
+[17:58:58] [nick] Griffin nick changed to Yee_DONG
+[17:58:58] [Player Smartphone Loaded] Griffin [DBID: 7]
+[17:58:58] [Player Weapons] Total number of weapons loaded for Griffin [DBID: 7]: 1.
+[17:58:58] [Player Inventory] Total number of inventory items loaded for Griffin [DBID: 7]: 3.
+[17:59:19] [part] Yee_DONG has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:06:52] language = ""  (string)
+[22:06:52] 
+[22:06:52] Server Plugins
+[22:06:52] --------------
+[22:06:52]  Loading plugin: crashdetect
+[22:06:52]   CrashDetect plugin 4.21
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: KeyListener
+[22:06:52] KeyListener v1.1.2 by MOR loaded
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: SKY
+[22:06:52] 
+[22:06:52]  ===============================
+[22:06:52]    
+[22:06:52]    < SKY - 2.3.0 >
+[22:06:52]    
+[22:06:52]    (c) 2008 - Present | YSF Maintainers
+[22:06:52]    (c) 2015 | Oscar "Slice" Broman
+[22:06:52]    
+[22:06:52]    Server Version: 0.3.7 R2
+[22:06:52]    Operating System: Windows
+[22:06:52]    Built on: Jan 21 2025 at 03:38:30
+[22:06:52]    
+[22:06:52]  ===============================
+[22:06:52] 
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: mysql
+[22:06:52]  >> plugin.mysql: R41-4 successfully loaded.
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: streamer
+[22:06:52] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: sscanf
+[22:06:52] 
+[22:06:52]  ===============================
+[22:06:52] 
+[22:06:52]       sscanf plugin loaded.     
+[22:06:52] 
+[22:06:52]          Version: 2.13.8
+[22:06:52] 
+[22:06:52]    (c) 2022 Alex "Y_Less" Cole  
+[22:06:52] 
+[22:06:52]  ===============================
+[22:06:52] 
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: samp_bcrypt
+[22:06:52] [SampBcrypt] [info]: Version: 0.3.4
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: textdraw-streamer
+[22:06:52] 
+[22:06:52]  ===============================
+[22:06:52]                                 
+[22:06:52]     Textdraw Streamer Yuklendi  
+[22:06:52]                                 
+[22:06:52]           Surum: v1.6.2            
+[22:06:52]                                 
+[22:06:52]     Developer: Burak (NexoR)    
+[22:06:52]                                 
+[22:06:52]  ===============================
+[22:06:52] 
+[22:06:52]   Loaded.
+[22:06:52]  Loading plugin: discord-connector
+[22:07:12]  >> discord-connector: timeout while initializing data.
+[22:07:12]                          plugin will proceed to retry connecting in the background.
+[22:07:12]   Loaded.
+[22:07:12]  Loaded 9 plugins.
+
+[22:07:12] 
+[22:07:12] Filterscripts
+[22:07:12] ---------------
+[22:07:12]   Loading filterscript 'mapping.amx'...
+[22:07:12]  
+[22:07:12]  
+[22:07:12]          ==============================================================
+[22:07:12]          |                                                            |
+[22:07:12]          |                                                            |
+[22:07:12]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[22:07:12]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[22:07:12]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[22:07:12]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[22:07:12]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[22:07:12]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[22:07:12]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[22:07:12]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[22:07:12]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[22:07:12]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[22:07:12]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:07:12]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:07:12]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[22:07:12]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[22:07:12]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[22:07:12]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[22:07:12]          |                                                            |
+[22:07:12]          |                                                            |
+[22:07:12]          |                      (c) 2021 MPL v1.1                     |
+[22:07:12]          |            Alex "Y_Less" Cole and contributors.            |
+[22:07:12]          |                                                            |
+[22:07:12]          |                                                            |
+[22:07:12]          ==============================================================
+[22:07:12]  
+[22:07:12]  
+[22:07:12]  ========================================== 
+[22:07:12]  |                                        | 
+[22:07:12]  |   Generating code, this may take a     | 
+[22:07:12]  |  little bit of time.  Note that this   | 
+[22:07:12]  |  code generation works best with the   | 
+[22:07:12]  |     JIT plugin, which you are not      | 
+[22:07:12]  |     currently using.  Get it here:     | 
+[22:07:12]  |                                        | 
+[22:07:12]  |       https://git.io/jit-plugin        | 
+[22:07:12]  |                                        | 
+[22:07:12]  |             Please wait...             | 
+[22:07:12]  |                                        | 
+[22:07:12]  |             Done in 0ms!               | 
+[22:07:12]  |                                        | 
+[22:07:12]  ========================================== 
+[22:07:12]  |                                        | 
+[22:07:12]  | Server:      0.3.7-R2 (W)              | 
+[22:07:12]  | Started:     14 Jul 2025 - 22:07:12    | 
+[22:07:12]  |                                        | 
+[22:07:12]  | Compiler:    3.10.08 (Windows)         | 
+[22:07:12]  | Includes:    0.3DL                     | 
+[22:07:12]  | Codepage:    <none>                    | 
+[22:07:12]  | Built:       14 Jul 2025 - 17:21:32    | 
+[22:07:12]  |                                        | 
+[22:07:12]  | YSI:         v05.10.0006               | 
+[22:07:12]  | Master:      -1                        | 
+[22:07:12]  |                                        | 
+[22:07:12]  | JIT:         <none>                    | 
+[22:07:12]  | Crashdetect: <found>                   | 
+[22:07:12]  |                                        | 
+[22:07:12]  ========================================== 
+[22:07:12]  
+[22:07:12]  
+[22:07:12]   Loading filterscript 'hotkeys.amx'...
+[22:07:12] -------------------- [GRIFFIN Hotkeys System] --------------------
+===>> Berhasil dimuat dengan baik!
+===>> by: Griffin (Yeee Pro)
+===>> dipersembahkan untuk GRIFFIN
+-------------------------------------------------------------------
+[22:07:12]   Loaded 2 filterscripts.
+
+[22:07:12]  
+[22:07:12]  
+[22:07:12]          ==============================================================
+[22:07:12]          |                                                            |
+[22:07:12]          |                                                            |
+[22:07:12]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[22:07:12]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[22:07:12]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[22:07:12]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[22:07:12]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[22:07:12]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[22:07:12]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[22:07:12]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[22:07:12]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[22:07:12]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[22:07:12]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:07:12]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:07:12]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[22:07:12]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[22:07:12]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[22:07:12]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[22:07:12]          |                                                            |
+[22:07:12]          |                                                            |
+[22:07:12]          |                      (c) 2021 MPL v1.1                     |
+[22:07:12]          |            Alex "Y_Less" Cole and contributors.            |
+[22:07:12]          |                                                            |
+[22:07:12]          |                                                            |
+[22:07:12]          ==============================================================
+[22:07:12]  
+[22:07:12]  
+[22:07:12]  ========================================== 
+[22:07:12]  |                                        | 
+[22:07:12]  |   Generating code, this may take a     | 
+[22:07:12]  |  little bit of time.  Note that this   | 
+[22:07:12]  |  code generation works best with the   | 
+[22:07:12]  |     JIT plugin, which you are not      | 
+[22:07:12]  |     currently using.  Get it here:     | 
+[22:07:12]  |                                        | 
+[22:07:12]  |       https://git.io/jit-plugin        | 
+[22:07:12]  |                                        | 
+[22:07:12]  |             Please wait...             | 
+[22:07:14]  |                                        | 
+[22:07:14]  |             Done in 1853ms!            | 
+[22:07:14]  |                                        | 
+[22:07:14]  ========================================== 
+[22:07:14]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[22:07:14] *** YSI Info: Script ID: 1
+[22:07:14]  |                                        | 
+[22:07:14]  | Server:      0.3.7-R2 (W)              | 
+[22:07:14]  | Started:     14 Jul 2025 - 22:07:12    | 
+[22:07:14]  |                                        | 
+[22:07:14]  | Compiler:    3.10.08 (Windows)         | 
+[22:07:14]  | Includes:    0.3DL                     | 
+[22:07:14]  | Codepage:    <none>                    | 
+[22:07:14]  | Built:       14 Jul 2025 - 22:04:10    | 
+[22:07:14]  |                                        | 
+[22:07:14]  | YSI:         v05.10.0006               | 
+[22:07:14]  | Master:      1                         | 
+[22:07:14]  |                                        | 
+[22:07:14]  | JIT:         <none>                    | 
+[22:07:14]  | Crashdetect: <found>                   | 
+[22:07:14]  |                                        | 
+[22:07:14]  ========================================== 
+[22:07:14]  
+[22:07:14]  
+[22:07:14] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3 DL by Abyss Morgan
+[22:07:14] [MySQL] Koneksi ke database berhasil!
+[22:07:14] [Anti-DDoS SA-MP] Telah berhasil dimuat dengan lancar.
+[22:07:14] |----------------------------------|
+[22:07:14] | GRIFFIN Premiere | A4-RC-Version |
+[22:07:14] |----------------------------------|
+[22:07:14] Number of vehicle models: 4
+[22:07:15] [Dynamic Doors] Jumlah total Doors yang dimuat: 43.
+[22:07:15] [Dynamic Garbages] Jumlah total Garbages Bin yang dimuat: 497.
+[22:07:15] [Dynamic Shops] Jumlah total Shops yang dimuat: 43.
+[22:07:15] [Dynamic Fivem Labels] The total number of Fivem Labels loaded: 1.
+[22:07:15] [Dynamic Public Garages] Jumlah total Public Garages yang dimuat: 33.
+[22:07:15] [Dynamic Rentals] Total number of loaded Rentals: 6.
+[22:07:15] [Dynamic Actors] Jumlah total Actors yang dimuat: 99.
+[22:07:15] [Dynamic ATM] Jumlah total ATM yang dimuat: 55.
+[22:07:15] [Dynamic Bank Point] Jumlah total bank point yang dimuat: 8.
+[22:07:15] [Dynamic Vending] Total dynamic vending loaded: 50.
+[22:07:15] [Dynamic Robberies] Jumlah total Robberies yang dimuat: 21.
+[22:07:15] [Dynamic Map Icons] Jumlah total map icons yang dimuat: 49.
+[22:07:15] [Dynamic Rusun] Total number of rusun loaded: 72.
+[22:07:15] [Dynamic Gudang] Total number of gudang loaded: 3.
+[22:07:15] [Dynamic Basement] Jumlah total basement yang dimuat: 1.
+[22:07:15] [Dynamic Buttons] Jumlah total buttons yang dimuat: 22.
+[22:07:15] [Dynamic Kanabis] Jumlah total Kanabis yang dimuat: 23.
+[22:07:15] [Dynamic Deers] Jumlah total Deers yang dimuat: 100.
+[22:07:15] [Dynamic Families] Jumlah total Family yang dimuat: 1.
+[22:07:15] [Dynamic Locker] Jumlah total Locker yang dimuat: 11.
+[22:07:15] [Dynamic Fact Craft] Jumlah total Fact Craft yang dimuat: 1.
+[22:07:15] [Dynamic Armoury] Jumlah total Armoury yang dimuat: 3.
+[22:07:15] [Dynamic Faction Vault] Jumlah total Faction Vault yang dimuat: 11.
+[22:07:15] [Dynamic Faction Garage] Jumlah total Faction Garage yang dimuat: 11.
+[22:07:15] [Dynamic Roadsigns] Total dynamic road sign loaded: 747.
+[22:07:15] [Dynamic Speed Cam] Total dynamic speed cam loaded: 127.
+[22:07:15] [Dynamic Blackjack] Jumlah total Blackjack Table yang dimuat: 18.
+[22:07:15] [Stuffs] Server Stuff berhasil dimuat...
+[22:07:15] [Farm Plants] Jumlah total farm plants yang dimuat: 1.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:36:43] language = ""  (string)
+[22:36:43] 
+[22:36:43] Server Plugins
+[22:36:43] --------------
+[22:36:43]  Loading plugin: crashdetect
+[22:36:43]   CrashDetect plugin 4.21
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: KeyListener
+[22:36:43] KeyListener v1.1.2 by MOR loaded
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: SKY
+[22:36:43] 
+[22:36:43]  ===============================
+[22:36:43]    
+[22:36:43]    < SKY - 2.3.0 >
+[22:36:43]    
+[22:36:43]    (c) 2008 - Present | YSF Maintainers
+[22:36:43]    (c) 2015 | Oscar "Slice" Broman
+[22:36:43]    
+[22:36:43]    Server Version: 0.3.7 R2
+[22:36:43]    Operating System: Windows
+[22:36:43]    Built on: Jan 21 2025 at 03:38:30
+[22:36:43]    
+[22:36:43]  ===============================
+[22:36:43] 
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: mysql
+[22:36:43]  >> plugin.mysql: R41-4 successfully loaded.
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: streamer
+[22:36:43] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: sscanf
+[22:36:43] 
+[22:36:43]  ===============================
+[22:36:43] 
+[22:36:43]       sscanf plugin loaded.     
+[22:36:43] 
+[22:36:43]          Version: 2.13.8
+[22:36:43] 
+[22:36:43]    (c) 2022 Alex "Y_Less" Cole  
+[22:36:43] 
+[22:36:43]  ===============================
+[22:36:43] 
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: samp_bcrypt
+[22:36:43] [SampBcrypt] [info]: Version: 0.3.4
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: textdraw-streamer
+[22:36:43] 
+[22:36:43]  ===============================
+[22:36:43]                                 
+[22:36:43]     Textdraw Streamer Yuklendi  
+[22:36:43]                                 
+[22:36:43]           Surum: v1.6.2            
+[22:36:43]                                 
+[22:36:43]     Developer: Burak (NexoR)    
+[22:36:43]                                 
+[22:36:43]  ===============================
+[22:36:43] 
+[22:36:43]   Loaded.
+[22:36:43]  Loading plugin: discord-connector
+[22:37:05]  >> discord-connector: timeout while initializing data.
+[22:37:05]                          plugin will proceed to retry connecting in the background.
+[22:37:05]   Loaded.
+[22:37:05]  Loaded 9 plugins.
+
+[22:37:05] 
+[22:37:05] Filterscripts
+[22:37:05] ---------------
+[22:37:05]   Loading filterscript 'mapping.amx'...
+[22:37:05]  
+[22:37:05]  
+[22:37:05]          ==============================================================
+[22:37:05]          |                                                            |
+[22:37:05]          |                                                            |
+[22:37:05]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[22:37:05]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[22:37:05]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[22:37:05]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[22:37:05]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[22:37:05]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[22:37:05]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[22:37:05]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[22:37:05]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[22:37:05]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[22:37:05]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:37:05]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:37:05]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[22:37:05]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[22:37:05]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[22:37:05]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[22:37:05]          |                                                            |
+[22:37:05]          |                                                            |
+[22:37:05]          |                      (c) 2021 MPL v1.1                     |
+[22:37:05]          |            Alex "Y_Less" Cole and contributors.            |
+[22:37:05]          |                                                            |
+[22:37:05]          |                                                            |
+[22:37:05]          ==============================================================
+[22:37:05]  
+[22:37:05]  
+[22:37:05]  ========================================== 
+[22:37:05]  |                                        | 
+[22:37:05]  |   Generating code, this may take a     | 
+[22:37:05]  |  little bit of time.  Note that this   | 
+[22:37:05]  |  code generation works best with the   | 
+[22:37:05]  |     JIT plugin, which you are not      | 
+[22:37:05]  |     currently using.  Get it here:     | 
+[22:37:05]  |                                        | 
+[22:37:05]  |       https://git.io/jit-plugin        | 
+[22:37:05]  |                                        | 
+[22:37:05]  |             Please wait...             | 
+[22:37:05]  |                                        | 
+[22:37:05]  |             Done in 0ms!               | 
+[22:37:05]  |                                        | 
+[22:37:05]  ========================================== 
+[22:37:05]  |                                        | 
+[22:37:05]  | Server:      0.3.7-R2 (W)              | 
+[22:37:05]  | Started:     14 Jul 2025 - 22:37:05    | 
+[22:37:05]  |                                        | 
+[22:37:05]  | Compiler:    3.10.08 (Windows)         | 
+[22:37:05]  | Includes:    0.3DL                     | 
+[22:37:05]  | Codepage:    <none>                    | 
+[22:37:05]  | Built:       14 Jul 2025 - 17:21:32    | 
+[22:37:05]  |                                        | 
+[22:37:05]  | YSI:         v05.10.0006               | 
+[22:37:05]  | Master:      -1                        | 
+[22:37:05]  |                                        | 
+[22:37:05]  | JIT:         <none>                    | 
+[22:37:05]  | Crashdetect: <found>                   | 
+[22:37:05]  |                                        | 
+[22:37:05]  ========================================== 
+[22:37:05]  
+[22:37:05]  
+[22:37:05]   Loading filterscript 'hotkeys.amx'...
+[22:37:05] -------------------- [GRIFFIN Hotkeys System] --------------------
+===>> Berhasil dimuat dengan baik!
+===>> by: Griffin (Yeee Pro)
+===>> dipersembahkan untuk GRIFFIN
+-------------------------------------------------------------------
+[22:37:05]   Loaded 2 filterscripts.
+
+[22:37:05]  
+[22:37:05]  
+[22:37:05]          ==============================================================
+[22:37:05]          |                                                            |
+[22:37:05]          |                                                            |
+[22:37:05]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[22:37:05]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[22:37:05]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[22:37:05]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[22:37:05]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[22:37:05]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[22:37:05]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[22:37:05]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[22:37:05]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[22:37:05]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[22:37:05]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:37:05]          |           Y:::::Y                    S:::::S   I::::I      |
+[22:37:05]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[22:37:05]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[22:37:05]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[22:37:05]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[22:37:05]          |                                                            |
+[22:37:05]          |                                                            |
+[22:37:05]          |                      (c) 2021 MPL v1.1                     |
+[22:37:05]          |            Alex "Y_Less" Cole and contributors.            |
+[22:37:05]          |                                                            |
+[22:37:05]          |                                                            |
+[22:37:05]          ==============================================================
+[22:37:05]  
+[22:37:05]  
+[22:37:05]  ========================================== 
+[22:37:05]  |                                        | 
+[22:37:05]  |   Generating code, this may take a     | 
+[22:37:05]  |  little bit of time.  Note that this   | 
+[22:37:05]  |  code generation works best with the   | 
+[22:37:05]  |     JIT plugin, which you are not      | 
+[22:37:05]  |     currently using.  Get it here:     | 
+[22:37:05]  |                                        | 
+[22:37:05]  |       https://git.io/jit-plugin        | 
+[22:37:05]  |                                        | 
+[22:37:05]  |             Please wait...             | 
+[22:37:08]  |                                        | 
+[22:37:08]  |             Done in 2338ms!            | 
+[22:37:08]  |                                        | 
+[22:37:08]  ========================================== 
+[22:37:08]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[22:37:08] *** YSI Info: Script ID: 1
+[22:37:08]  |                                        | 
+[22:37:08]  | Server:      0.3.7-R2 (W)              | 
+[22:37:08]  | Started:     14 Jul 2025 - 22:37:05    | 
+[22:37:08]  |                                        | 
+[22:37:08]  | Compiler:    3.10.08 (Windows)         | 
+[22:37:08]  | Includes:    0.3DL                     | 
+[22:37:08]  | Codepage:    <none>                    | 
+[22:37:08]  | Built:       14 Jul 2025 - 22:04:10    | 
+[22:37:08]  |                                        | 
+[22:37:08]  | YSI:         v05.10.0006               | 
+[22:37:08]  | Master:      1                         | 
+[22:37:08]  |                                        | 
+[22:37:08]  | JIT:         <none>                    | 
+[22:37:08]  | Crashdetect: <found>                   | 
+[22:37:08]  |                                        | 
+[22:37:08]  ========================================== 
+[22:37:08]  
+[22:37:08]  
+[22:37:08] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3 DL by Abyss Morgan
+[22:37:08] [MySQL] Koneksi ke database berhasil!
+[22:37:08] [Anti-DDoS SA-MP] Telah berhasil dimuat dengan lancar.
+[22:37:08] |----------------------------------|
+[22:37:08] | GRIFFIN Premiere | A4-RC-Version |
+[22:37:08] |----------------------------------|
+[22:37:08] Number of vehicle models: 4
+[22:37:08] [Dynamic Doors] Jumlah total Doors yang dimuat: 43.
+[22:37:08] [Dynamic Garbages] Jumlah total Garbages Bin yang dimuat: 497.
+[22:37:08] [Dynamic Shops] Jumlah total Shops yang dimuat: 43.
+[22:37:08] [Dynamic Fivem Labels] The total number of Fivem Labels loaded: 1.
+[22:37:08] [Dynamic Public Garages] Jumlah total Public Garages yang dimuat: 33.
+[22:37:08] [Dynamic Rentals] Total number of loaded Rentals: 6.
+[22:37:08] [Dynamic Actors] Jumlah total Actors yang dimuat: 99.
+[22:37:08] [Dynamic ATM] Jumlah total ATM yang dimuat: 55.
+[22:37:08] [Dynamic Bank Point] Jumlah total bank point yang dimuat: 8.
+[22:37:08] [Dynamic Vending] Total dynamic vending loaded: 50.
+[22:37:08] [Dynamic Robberies] Jumlah total Robberies yang dimuat: 21.
+[22:37:08] [Dynamic Map Icons] Jumlah total map icons yang dimuat: 49.
+[22:37:08] [Dynamic Rusun] Total number of rusun loaded: 72.
+[22:37:08] [Dynamic Gudang] Total number of gudang loaded: 3.
+[22:37:08] [Dynamic Basement] Jumlah total basement yang dimuat: 1.
+[22:37:08] [Dynamic Buttons] Jumlah total buttons yang dimuat: 22.
+[22:37:08] [Dynamic Kanabis] Jumlah total Kanabis yang dimuat: 23.
+[22:37:08] [Dynamic Deers] Jumlah total Deers yang dimuat: 100.
+[22:37:08] [Dynamic Families] Jumlah total Family yang dimuat: 1.
+[22:37:08] [Dynamic Locker] Jumlah total Locker yang dimuat: 11.
+[22:37:08] [Dynamic Fact Craft] Jumlah total Fact Craft yang dimuat: 1.
+[22:37:08] [Dynamic Armoury] Jumlah total Armoury yang dimuat: 3.
+[22:37:08] [Dynamic Faction Vault] Jumlah total Faction Vault yang dimuat: 11.
+[22:37:08] [Dynamic Faction Garage] Jumlah total Faction Garage yang dimuat: 11.
+[22:37:09] [Dynamic Roadsigns] Total dynamic road sign loaded: 747.
+[22:37:09] [Dynamic Speed Cam] Total dynamic speed cam loaded: 127.
+[22:37:09] [Dynamic Blackjack] Jumlah total Blackjack Table yang dimuat: 18.
+[22:37:09] [Stuffs] Server Stuff berhasil dimuat...
+[22:37:09] [Farm Plants] Jumlah total farm plants yang dimuat: 1.
+[22:37:43] [connection] incoming connection: 192.168.55.245:56783 id: 0
+[22:37:43] [join] Griffin has joined the server (0:192.168.55.245)
+[22:37:51] [nick] Griffin nick changed to Yee_DONG
+[22:37:51] [Player Inventory] Total number of inventory items loaded for Griffin [DBID: 7]: 3.
+[22:37:51] [Player Smartphone Loaded] Griffin [DBID: 7]
+[22:37:51] [Player Weapons] Total number of weapons loaded for Griffin [DBID: 7]: 1.
+[22:38:34] [nick] Yee_DONG nick changed to Griffin
+[22:38:34] [debug]
+[22:38:34] [debug] Parameter count corrections:
+[22:38:34] [debug]
+[22:38:34] [debug] The 1st mangled arguments (e.g. `<1073741823 arguments>`) below should read `<2 arguments>`
+[22:38:34] [debug] Parameter count loop detected.
+[22:38:34] [debug]
+[22:38:34] [debug] Run time error 4: "Array index out of bounds"
+[22:38:34] [debug]  Attempted to read/write array element at index 99 in array of size 7
+[22:38:34] [debug] AMX backtrace:
+[22:38:34] [debug] #0 006663f8 in GetAdminLevel (playerid=0) at core/systems\systems_natives.inc:3082
+[22:38:34] [debug] #1 0073b930 in ?? (0, 17586360, 0) at core/admin/admin_lv1.inc:558
+[22:38:34] [debug] #2 0005e35c in e_COMMAND_ERRORS:Command_ReProcess__ (playerid=0, cmdtext[]=@05aa02ac "/aduty", help=0) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:1132
+[22:38:34] [debug] #3 00063d7c in _@yHOnPlayerCommandText@000 (playerid=0, cmdtext[]=@05aa02ac "/aduty") <@Z:> at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:2478
+[22:38:34] [debug] #4 000472a4 in public OnPlayerCommandText (0, 95027884) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\..\..\YSI_Coding\y_hooks\..\y_cgen\y_cgen_impl.inc:157
+[22:40:08] [part] Griffin has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:30:37] language = ""  (string)
+[14:30:37] 
+[14:30:37] Server Plugins
+[14:30:37] --------------
+[14:30:37]  Loading plugin: crashdetect
+[14:30:37]   CrashDetect plugin 4.21
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: KeyListener
+[14:30:37] KeyListener v1.1.2 by MOR loaded
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: SKY
+[14:30:37] 
+[14:30:37]  ===============================
+[14:30:37]    
+[14:30:37]    < SKY - 2.3.0 >
+[14:30:37]    
+[14:30:37]    (c) 2008 - Present | YSF Maintainers
+[14:30:37]    (c) 2015 | Oscar "Slice" Broman
+[14:30:37]    
+[14:30:37]    Server Version: 0.3.7 R2
+[14:30:37]    Operating System: Windows
+[14:30:37]    Built on: Jan 21 2025 at 03:38:30
+[14:30:37]    
+[14:30:37]  ===============================
+[14:30:37] 
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: mysql
+[14:30:37]  >> plugin.mysql: R41-4 successfully loaded.
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: streamer
+[14:30:37] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: sscanf
+[14:30:37] 
+[14:30:37]  ===============================
+[14:30:37] 
+[14:30:37]       sscanf plugin loaded.     
+[14:30:37] 
+[14:30:37]          Version: 2.13.8
+[14:30:37] 
+[14:30:37]    (c) 2022 Alex "Y_Less" Cole  
+[14:30:37] 
+[14:30:37]  ===============================
+[14:30:37] 
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: samp_bcrypt
+[14:30:37] [SampBcrypt] [info]: Version: 0.3.4
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: textdraw-streamer
+[14:30:37] 
+[14:30:37]  ===============================
+[14:30:37]                                 
+[14:30:37]     Textdraw Streamer Yuklendi  
+[14:30:37]                                 
+[14:30:37]           Surum: v1.6.2            
+[14:30:37]                                 
+[14:30:37]     Developer: Burak (NexoR)    
+[14:30:37]                                 
+[14:30:37]  ===============================
+[14:30:37] 
+[14:30:37]   Loaded.
+[14:30:37]  Loading plugin: discord-connector
+[14:30:58]  >> discord-connector: timeout while initializing data.
+[14:30:58]                          plugin will proceed to retry connecting in the background.
+[14:30:58]   Loaded.
+[14:30:58]  Loaded 9 plugins.
+
+[14:30:58] 
+[14:30:58] Filterscripts
+[14:30:58] ---------------
+[14:30:58]   Loading filterscript 'mapping.amx'...
+[14:30:58]  
+[14:30:58]  
+[14:30:58]          ==============================================================
+[14:30:58]          |                                                            |
+[14:30:58]          |                                                            |
+[14:30:58]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[14:30:58]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[14:30:58]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[14:30:58]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[14:30:58]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[14:30:58]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[14:30:58]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[14:30:58]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[14:30:58]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[14:30:58]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[14:30:58]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:30:58]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:30:58]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[14:30:58]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[14:30:58]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[14:30:58]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[14:30:58]          |                                                            |
+[14:30:58]          |                                                            |
+[14:30:58]          |                      (c) 2021 MPL v1.1                     |
+[14:30:58]          |            Alex "Y_Less" Cole and contributors.            |
+[14:30:58]          |                                                            |
+[14:30:58]          |                                                            |
+[14:30:58]          ==============================================================
+[14:30:58]  
+[14:30:58]  
+[14:30:58]  ========================================== 
+[14:30:58]  |                                        | 
+[14:30:58]  |   Generating code, this may take a     | 
+[14:30:58]  |  little bit of time.  Note that this   | 
+[14:30:58]  |  code generation works best with the   | 
+[14:30:58]  |     JIT plugin, which you are not      | 
+[14:30:58]  |     currently using.  Get it here:     | 
+[14:30:58]  |                                        | 
+[14:30:58]  |       https://git.io/jit-plugin        | 
+[14:30:58]  |                                        | 
+[14:30:58]  |             Please wait...             | 
+[14:30:58]  |                                        | 
+[14:30:58]  |             Done in 0ms!               | 
+[14:30:58]  |                                        | 
+[14:30:58]  ========================================== 
+[14:30:58]  |                                        | 
+[14:30:58]  | Server:      0.3.7-R2 (W)              | 
+[14:30:58]  | Started:     29 Jul 2025 - 14:30:58    | 
+[14:30:58]  |                                        | 
+[14:30:58]  | Compiler:    3.10.08 (Windows)         | 
+[14:30:58]  | Includes:    0.3DL                     | 
+[14:30:58]  | Codepage:    <none>                    | 
+[14:30:58]  | Built:       29 Jul 2025 - 14:24:41    | 
+[14:30:58]  |                                        | 
+[14:30:58]  | YSI:         v05.10.0006               | 
+[14:30:58]  | Master:      -1                        | 
+[14:30:58]  |                                        | 
+[14:30:58]  | JIT:         <none>                    | 
+[14:30:58]  | Crashdetect: <found>                   | 
+[14:30:58]  |                                        | 
+[14:30:58]  ========================================== 
+[14:30:58]  
+[14:30:58]  
+[14:30:59]   Loading filterscript 'hotkeys.amx'...
+[14:30:59] -------------------- [GRIFFIN Hotkeys System] --------------------
+===>> Berhasil dimuat dengan baik!
+===>> by: Griffin (Yeee Pro)
+===>> dipersembahkan untuk GRIFFIN
+-------------------------------------------------------------------
+[14:30:59]   Loaded 2 filterscripts.
+
+[14:30:59] Script[gamemodes/main.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[14:30:59] Failed to load 'gamemodes/main.amx' script.
+[14:30:59] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:33:08] language = ""  (string)
+[14:33:08] 
+[14:33:08] Server Plugins
+[14:33:08] --------------
+[14:33:08]  Loading plugin: crashdetect
+[14:33:08]   CrashDetect plugin 4.21
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: KeyListener
+[14:33:08] KeyListener v1.1.2 by MOR loaded
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: SKY
+[14:33:08] 
+[14:33:08]  ===============================
+[14:33:08]    
+[14:33:08]    < SKY - 2.3.0 >
+[14:33:08]    
+[14:33:08]    (c) 2008 - Present | YSF Maintainers
+[14:33:08]    (c) 2015 | Oscar "Slice" Broman
+[14:33:08]    
+[14:33:08]    Server Version: 0.3.7 R2
+[14:33:08]    Operating System: Windows
+[14:33:08]    Built on: Jan 21 2025 at 03:38:30
+[14:33:08]    
+[14:33:08]  ===============================
+[14:33:08] 
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: mysql
+[14:33:08]  >> plugin.mysql: R41-4 successfully loaded.
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: streamer
+[14:33:08] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: sscanf
+[14:33:08] 
+[14:33:08]  ===============================
+[14:33:08] 
+[14:33:08]       sscanf plugin loaded.     
+[14:33:08] 
+[14:33:08]          Version: 2.13.8
+[14:33:08] 
+[14:33:08]    (c) 2022 Alex "Y_Less" Cole  
+[14:33:08] 
+[14:33:08]  ===============================
+[14:33:08] 
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: samp_bcrypt
+[14:33:08] [SampBcrypt] [info]: Version: 0.3.4
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: textdraw-streamer
+[14:33:08] 
+[14:33:08]  ===============================
+[14:33:08]                                 
+[14:33:08]     Textdraw Streamer Yuklendi  
+[14:33:08]                                 
+[14:33:08]           Surum: v1.6.2            
+[14:33:08]                                 
+[14:33:08]     Developer: Burak (NexoR)    
+[14:33:08]                                 
+[14:33:08]  ===============================
+[14:33:08] 
+[14:33:08]   Loaded.
+[14:33:08]  Loading plugin: discord-connector
+[14:33:28]  >> discord-connector: timeout while initializing data.
+[14:33:28]                          plugin will proceed to retry connecting in the background.
+[14:33:28]   Loaded.
+[14:33:28]  Loaded 9 plugins.
+
+[14:33:28] 
+[14:33:28] Filterscripts
+[14:33:28] ---------------
+[14:33:28]   Loading filterscript 'mapping.amx'...
+[14:33:28]  
+[14:33:28]  
+[14:33:28]          ==============================================================
+[14:33:28]          |                                                            |
+[14:33:28]          |                                                            |
+[14:33:28]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[14:33:28]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[14:33:28]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[14:33:28]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[14:33:28]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[14:33:28]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[14:33:28]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[14:33:28]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[14:33:28]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[14:33:28]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[14:33:28]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:33:28]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:33:28]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[14:33:28]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[14:33:28]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[14:33:28]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[14:33:28]          |                                                            |
+[14:33:28]          |                                                            |
+[14:33:28]          |                      (c) 2021 MPL v1.1                     |
+[14:33:28]          |            Alex "Y_Less" Cole and contributors.            |
+[14:33:28]          |                                                            |
+[14:33:28]          |                                                            |
+[14:33:28]          ==============================================================
+[14:33:28]  
+[14:33:28]  
+[14:33:28]  ========================================== 
+[14:33:28]  |                                        | 
+[14:33:28]  |   Generating code, this may take a     | 
+[14:33:28]  |  little bit of time.  Note that this   | 
+[14:33:28]  |  code generation works best with the   | 
+[14:33:28]  |     JIT plugin, which you are not      | 
+[14:33:28]  |     currently using.  Get it here:     | 
+[14:33:28]  |                                        | 
+[14:33:28]  |       https://git.io/jit-plugin        | 
+[14:33:28]  |                                        | 
+[14:33:28]  |             Please wait...             | 
+[14:33:28]  |                                        | 
+[14:33:28]  |             Done in 0ms!               | 
+[14:33:28]  |                                        | 
+[14:33:28]  ========================================== 
+[14:33:28]  |                                        | 
+[14:33:28]  | Server:      0.3.7-R2 (W)              | 
+[14:33:28]  | Started:     29 Jul 2025 - 14:33:28    | 
+[14:33:28]  |                                        | 
+[14:33:28]  | Compiler:    3.10.08 (Windows)         | 
+[14:33:28]  | Includes:    0.3DL                     | 
+[14:33:28]  | Codepage:    <none>                    | 
+[14:33:28]  | Built:       29 Jul 2025 - 14:24:41    | 
+[14:33:28]  |                                        | 
+[14:33:28]  | YSI:         v05.10.0006               | 
+[14:33:28]  | Master:      -1                        | 
+[14:33:28]  |                                        | 
+[14:33:28]  | JIT:         <none>                    | 
+[14:33:28]  | Crashdetect: <found>                   | 
+[14:33:28]  |                                        | 
+[14:33:28]  ========================================== 
+[14:33:28]  
+[14:33:28]  
+[14:33:28]   Loading filterscript 'hotkeys.amx'...
+[14:33:28] -------------------- [GRIFFIN Hotkeys System] --------------------
+===>> Berhasil dimuat dengan baik!
+===>> by: Griffin (Yeee Pro)
+===>> dipersembahkan untuk GRIFFIN
+-------------------------------------------------------------------
+[14:33:28]   Loaded 2 filterscripts.
+
+[14:33:29]  
+[14:33:29]  
+[14:33:29]          ==============================================================
+[14:33:29]          |                                                            |
+[14:33:29]          |                                                            |
+[14:33:29]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[14:33:29]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[14:33:29]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[14:33:29]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[14:33:29]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[14:33:29]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[14:33:29]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[14:33:29]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[14:33:29]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[14:33:29]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[14:33:29]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:33:29]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:33:29]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[14:33:29]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[14:33:29]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[14:33:29]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[14:33:29]          |                                                            |
+[14:33:29]          |                                                            |
+[14:33:29]          |                      (c) 2021 MPL v1.1                     |
+[14:33:29]          |            Alex "Y_Less" Cole and contributors.            |
+[14:33:29]          |                                                            |
+[14:33:29]          |                                                            |
+[14:33:29]          ==============================================================
+[14:33:29]  
+[14:33:29]  
+[14:33:29]  ========================================== 
+[14:33:29]  |                                        | 
+[14:33:29]  |   Generating code, this may take a     | 
+[14:33:29]  |  little bit of time.  Note that this   | 
+[14:33:29]  |  code generation works best with the   | 
+[14:33:29]  |     JIT plugin, which you are not      | 
+[14:33:29]  |     currently using.  Get it here:     | 
+[14:33:29]  |                                        | 
+[14:33:29]  |       https://git.io/jit-plugin        | 
+[14:33:29]  |                                        | 
+[14:33:29]  |             Please wait...             | 
+[14:33:31]  |                                        | 
+[14:33:31]  |             Done in 1906ms!            | 
+[14:33:31]  |                                        | 
+[14:33:31]  ========================================== 
+[14:33:31]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[14:33:31] *** YSI Info: Script ID: 1
+[14:33:31]  |                                        | 
+[14:33:31]  | Server:      0.3.7-R2 (W)              | 
+[14:33:31]  | Started:     29 Jul 2025 - 14:33:29    | 
+[14:33:31]  |                                        | 
+[14:33:31]  | Compiler:    3.10.08 (Windows)         | 
+[14:33:31]  | Includes:    0.3DL                     | 
+[14:33:31]  | Codepage:    <none>                    | 
+[14:33:31]  | Built:       29 Jul 2025 - 14:32:13    | 
+[14:33:31]  |                                        | 
+[14:33:31]  | YSI:         v05.10.0006               | 
+[14:33:31]  | Master:      1                         | 
+[14:33:31]  |                                        | 
+[14:33:31]  | JIT:         <none>                    | 
+[14:33:31]  | Crashdetect: <found>                   | 
+[14:33:31]  |                                        | 
+[14:33:31]  ========================================== 
+[14:33:31]  
+[14:33:31]  
+[14:33:31] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3 DL by Abyss Morgan
+[14:33:31] [MySQL] Koneksi ke database berhasil!
+[14:33:31] [Anti-DDoS SA-MP] Telah berhasil dimuat dengan lancar.
+[14:33:31] |----------------------------------|
+[14:33:31] | GRIFFIN Premiere | A4-RC-Version |
+[14:33:31] |----------------------------------|
+[14:33:31] Number of vehicle models: 4
+[14:33:31] [Dynamic Doors] Jumlah total Doors yang dimuat: 43.
+[14:33:31] [Dynamic Garbages] Jumlah total Garbages Bin yang dimuat: 497.
+[14:33:31] [Dynamic Shops] Jumlah total Shops yang dimuat: 43.
+[14:33:31] [Dynamic Fivem Labels] The total number of Fivem Labels loaded: 1.
+[14:33:31] [Dynamic Public Garages] Jumlah total Public Garages yang dimuat: 33.
+[14:33:31] [Dynamic Rentals] Total number of loaded Rentals: 6.
+[14:33:31] [Dynamic Actors] Jumlah total Actors yang dimuat: 99.
+[14:33:31] [Dynamic ATM] Jumlah total ATM yang dimuat: 55.
+[14:33:31] [Dynamic Bank Point] Jumlah total bank point yang dimuat: 8.
+[14:33:31] [Dynamic Vending] Total dynamic vending loaded: 50.
+[14:33:31] [Dynamic Robberies] Jumlah total Robberies yang dimuat: 21.
+[14:33:31] [Dynamic Map Icons] Jumlah total map icons yang dimuat: 49.
+[14:33:31] [Dynamic Rusun] Total number of rusun loaded: 72.
+[14:33:31] [Dynamic Gudang] Total number of gudang loaded: 3.
+[14:33:31] [Dynamic Basement] Jumlah total basement yang dimuat: 1.
+[14:33:31] [Dynamic Buttons] Jumlah total buttons yang dimuat: 22.
+[14:33:31] [Dynamic Kanabis] Jumlah total Kanabis yang dimuat: 23.
+[14:33:31] [Dynamic Deers] Jumlah total Deers yang dimuat: 100.
+[14:33:31] [Dynamic Families] Jumlah total Family yang dimuat: 1.
+[14:33:31] [Dynamic Locker] Jumlah total Locker yang dimuat: 11.
+[14:33:31] [Dynamic Fact Craft] Jumlah total Fact Craft yang dimuat: 1.
+[14:33:31] [Dynamic Armoury] Jumlah total Armoury yang dimuat: 3.
+[14:33:31] [Dynamic Faction Vault] Jumlah total Faction Vault yang dimuat: 11.
+[14:33:31] [Dynamic Faction Garage] Jumlah total Faction Garage yang dimuat: 11.
+[14:33:31] [Dynamic Roadsigns] Total dynamic road sign loaded: 747.
+[14:33:31] [Dynamic Speed Cam] Total dynamic speed cam loaded: 127.
+[14:33:31] [Dynamic Blackjack] Jumlah total Blackjack Table yang dimuat: 18.
+[14:33:31] [Stuffs] Server Stuff berhasil dimuat...
+[14:33:31] [Farm Plants] Jumlah total farm plants yang dimuat: 1.
+[14:34:41] [connection] incoming connection: 192.168.122.175:56338 id: 0
+[14:34:42] [join] Griffin has joined the server (0:192.168.122.175)
+[14:34:49] [nick] Griffin nick changed to Yee_DONG
+[14:34:49] [Player Inventory] Total number of inventory items loaded for Griffin [DBID: 7]: 3.
+[14:34:49] [Player Smartphone Loaded] Griffin [DBID: 7]
+[14:34:49] [Player Weapons] Total number of weapons loaded for Griffin [DBID: 7]: 1.
+[14:35:33] [nick] Yee_DONG nick changed to Griffin
+[14:35:33] [debug]
+[14:35:33] [debug] Parameter count corrections:
+[14:35:33] [debug]
+[14:35:33] [debug] The 1st mangled arguments (e.g. `<1073741823 arguments>`) below should read `<2 arguments>`
+[14:35:33] [debug] Parameter count loop detected.
+[14:35:33] [debug]
+[14:35:33] [debug] Run time error 4: "Array index out of bounds"
+[14:35:33] [debug]  Attempted to read/write array element at index 99 in array of size 7
+[14:35:33] [debug] AMX backtrace:
+[14:35:33] [debug] #0 006663f8 in GetAdminLevel (playerid=0) at core/systems\systems_natives.inc:3082
+[14:35:33] [debug] #1 0073b930 in ?? (0, 17586360, 0) at core/admin/admin_lv1.inc:558
+[14:35:33] [debug] #2 0005e35c in e_COMMAND_ERRORS:Command_ReProcess__ (playerid=0, cmdtext[]=@05aa02ac "/aduty", help=0) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:1132
+[14:35:33] [debug] #3 00063d7c in _@yHOnPlayerCommandText@000 (playerid=0, cmdtext[]=@05aa02ac "/aduty") <@Z:> at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:2478
+[14:35:33] [debug] #4 000472a4 in public OnPlayerCommandText (0, 95027884) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\..\..\YSI_Coding\y_hooks\..\y_cgen\y_cgen_impl.inc:157
+[14:47:51] [part] Griffin has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:51:16] language = ""  (string)
+[14:51:16] 
+[14:51:16] Server Plugins
+[14:51:16] --------------
+[14:51:16]  Loading plugin: crashdetect
+[14:51:16]   CrashDetect plugin 4.21
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: KeyListener
+[14:51:16] KeyListener v1.1.2 by MOR loaded
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: SKY
+[14:51:16] 
+[14:51:16]  ===============================
+[14:51:16]    
+[14:51:16]    < SKY - 2.3.0 >
+[14:51:16]    
+[14:51:16]    (c) 2008 - Present | YSF Maintainers
+[14:51:16]    (c) 2015 | Oscar "Slice" Broman
+[14:51:16]    
+[14:51:16]    Server Version: 0.3.7 R2
+[14:51:16]    Operating System: Windows
+[14:51:16]    Built on: Jan 21 2025 at 03:38:30
+[14:51:16]    
+[14:51:16]  ===============================
+[14:51:16] 
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: mysql
+[14:51:16]  >> plugin.mysql: R41-4 successfully loaded.
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: streamer
+[14:51:16] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: sscanf
+[14:51:16] 
+[14:51:16]  ===============================
+[14:51:16] 
+[14:51:16]       sscanf plugin loaded.     
+[14:51:16] 
+[14:51:16]          Version: 2.13.8
+[14:51:16] 
+[14:51:16]    (c) 2022 Alex "Y_Less" Cole  
+[14:51:16] 
+[14:51:16]  ===============================
+[14:51:16] 
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: samp_bcrypt
+[14:51:16] [SampBcrypt] [info]: Version: 0.3.4
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: textdraw-streamer
+[14:51:16] 
+[14:51:16]  ===============================
+[14:51:16]                                 
+[14:51:16]     Textdraw Streamer Yuklendi  
+[14:51:16]                                 
+[14:51:16]           Surum: v1.6.2            
+[14:51:16]                                 
+[14:51:16]     Developer: Burak (NexoR)    
+[14:51:16]                                 
+[14:51:16]  ===============================
+[14:51:16] 
+[14:51:16]   Loaded.
+[14:51:16]  Loading plugin: discord-connector
+[14:51:40]  >> discord-connector: timeout while initializing data.
+[14:51:40]                          plugin will proceed to retry connecting in the background.
+[14:51:40]   Loaded.
+[14:51:40]  Loaded 9 plugins.
+
+[14:51:40] I couldn't load any gamemode scripts. Please verify your server.cfg
+[14:51:40] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:51:53] language = ""  (string)
+[14:51:53] 
+[14:51:53] Server Plugins
+[14:51:53] --------------
+[14:51:53]  Loading plugin: crashdetect
+[14:51:53]   CrashDetect plugin 4.21
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: KeyListener
+[14:51:53] KeyListener v1.1.2 by MOR loaded
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: SKY
+[14:51:53] 
+[14:51:53]  ===============================
+[14:51:53]    
+[14:51:53]    < SKY - 2.3.0 >
+[14:51:53]    
+[14:51:53]    (c) 2008 - Present | YSF Maintainers
+[14:51:53]    (c) 2015 | Oscar "Slice" Broman
+[14:51:53]    
+[14:51:53]    Server Version: 0.3.7 R2
+[14:51:53]    Operating System: Windows
+[14:51:53]    Built on: Jan 21 2025 at 03:38:30
+[14:51:53]    
+[14:51:53]  ===============================
+[14:51:53] 
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: mysql
+[14:51:53]  >> plugin.mysql: R41-4 successfully loaded.
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: streamer
+[14:51:53] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: sscanf
+[14:51:53] 
+[14:51:53]  ===============================
+[14:51:53] 
+[14:51:53]       sscanf plugin loaded.     
+[14:51:53] 
+[14:51:53]          Version: 2.13.8
+[14:51:53] 
+[14:51:53]    (c) 2022 Alex "Y_Less" Cole  
+[14:51:53] 
+[14:51:53]  ===============================
+[14:51:53] 
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: samp_bcrypt
+[14:51:53] [SampBcrypt] [info]: Version: 0.3.4
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: textdraw-streamer
+[14:51:53] 
+[14:51:53]  ===============================
+[14:51:53]                                 
+[14:51:53]     Textdraw Streamer Yuklendi  
+[14:51:53]                                 
+[14:51:53]           Surum: v1.6.2            
+[14:51:53]                                 
+[14:51:53]     Developer: Burak (NexoR)    
+[14:51:53]                                 
+[14:51:53]  ===============================
+[14:51:53] 
+[14:51:53]   Loaded.
+[14:51:53]  Loading plugin: discord-connector
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:52:40] language = ""  (string)
+[14:52:40] 
+[14:52:40] Server Plugins
+[14:52:40] --------------
+[14:52:40]  Loading plugin: crashdetect
+[14:52:40]   CrashDetect plugin 4.21
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: KeyListener
+[14:52:40] KeyListener v1.1.2 by MOR loaded
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: SKY
+[14:52:40] 
+[14:52:40]  ===============================
+[14:52:40]    
+[14:52:40]    < SKY - 2.3.0 >
+[14:52:40]    
+[14:52:40]    (c) 2008 - Present | YSF Maintainers
+[14:52:40]    (c) 2015 | Oscar "Slice" Broman
+[14:52:40]    
+[14:52:40]    Server Version: 0.3.7 R2
+[14:52:40]    Operating System: Windows
+[14:52:40]    Built on: Jan 21 2025 at 03:38:30
+[14:52:40]    
+[14:52:40]  ===============================
+[14:52:40] 
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: mysql
+[14:52:40]  >> plugin.mysql: R41-4 successfully loaded.
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: streamer
+[14:52:40] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: sscanf
+[14:52:40] 
+[14:52:40]  ===============================
+[14:52:40] 
+[14:52:40]       sscanf plugin loaded.     
+[14:52:40] 
+[14:52:40]          Version: 2.13.8
+[14:52:40] 
+[14:52:40]    (c) 2022 Alex "Y_Less" Cole  
+[14:52:40] 
+[14:52:40]  ===============================
+[14:52:40] 
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: samp_bcrypt
+[14:52:40] [SampBcrypt] [info]: Version: 0.3.4
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: textdraw-streamer
+[14:52:40] 
+[14:52:40]  ===============================
+[14:52:40]                                 
+[14:52:40]     Textdraw Streamer Yuklendi  
+[14:52:40]                                 
+[14:52:40]           Surum: v1.6.2            
+[14:52:40]                                 
+[14:52:40]     Developer: Burak (NexoR)    
+[14:52:40]                                 
+[14:52:40]  ===============================
+[14:52:40] 
+[14:52:40]   Loaded.
+[14:52:40]  Loading plugin: discord-connector
+[14:53:01]  >> discord-connector: timeout while initializing data.
+[14:53:01]                          plugin will proceed to retry connecting in the background.
+[14:53:01]   Loaded.
+[14:53:01]  Loaded 9 plugins.
+
+[14:53:01] 
+[14:53:01] Filterscripts
+[14:53:01] ---------------
+[14:53:01]   Loading filterscript 'mapping.amx'...
+[14:53:01]  
+[14:53:01]  
+[14:53:01]          ==============================================================
+[14:53:01]          |                                                            |
+[14:53:01]          |                                                            |
+[14:53:01]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[14:53:01]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[14:53:01]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[14:53:01]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[14:53:01]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[14:53:01]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[14:53:01]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[14:53:01]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[14:53:01]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[14:53:01]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[14:53:01]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:53:01]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:53:02]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[14:53:02]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[14:53:02]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[14:53:02]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[14:53:02]          |                                                            |
+[14:53:02]          |                                                            |
+[14:53:02]          |                      (c) 2021 MPL v1.1                     |
+[14:53:02]          |            Alex "Y_Less" Cole and contributors.            |
+[14:53:02]          |                                                            |
+[14:53:02]          |                                                            |
+[14:53:02]          ==============================================================
+[14:53:02]  
+[14:53:02]  
+[14:53:02]  ========================================== 
+[14:53:02]  |                                        | 
+[14:53:02]  |   Generating code, this may take a     | 
+[14:53:02]  |  little bit of time.  Note that this   | 
+[14:53:02]  |  code generation works best with the   | 
+[14:53:02]  |     JIT plugin, which you are not      | 
+[14:53:02]  |     currently using.  Get it here:     | 
+[14:53:02]  |                                        | 
+[14:53:02]  |       https://git.io/jit-plugin        | 
+[14:53:02]  |                                        | 
+[14:53:02]  |             Please wait...             | 
+[14:53:02]  |                                        | 
+[14:53:02]  |             Done in 0ms!               | 
+[14:53:02]  |                                        | 
+[14:53:02]  ========================================== 
+[14:53:02]  |                                        | 
+[14:53:02]  | Server:      0.3.7-R2 (W)              | 
+[14:53:02]  | Started:     29 Jul 2025 - 14:53:01    | 
+[14:53:02]  |                                        | 
+[14:53:02]  | Compiler:    3.10.08 (Windows)         | 
+[14:53:02]  | Includes:    0.3DL                     | 
+[14:53:02]  | Codepage:    <none>                    | 
+[14:53:02]  | Built:       29 Jul 2025 - 14:50:57    | 
+[14:53:02]  |                                        | 
+[14:53:02]  | YSI:         v05.10.0006               | 
+[14:53:02]  | Master:      -1                        | 
+[14:53:02]  |                                        | 
+[14:53:02]  | JIT:         <none>                    | 
+[14:53:02]  | Crashdetect: <found>                   | 
+[14:53:02]  |                                        | 
+[14:53:02]  ========================================== 
+[14:53:02]  
+[14:53:02]  
+[14:53:02]   Loading filterscript 'hotkeys.amx'...
+[14:53:02] -------------------- [GRIFFIN Hotkeys System] --------------------
+===>> Berhasil dimuat dengan baik!
+===>> by: Griffin (Yeee Pro)
+===>> dipersembahkan untuk GRIFFIN
+-------------------------------------------------------------------
+[14:53:02]   Loaded 2 filterscripts.
+
+[14:53:02]  
+[14:53:02]  
+[14:53:02]          ==============================================================
+[14:53:02]          |                                                            |
+[14:53:02]          |                                                            |
+[14:53:02]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[14:53:02]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[14:53:02]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[14:53:02]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[14:53:02]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[14:53:02]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[14:53:02]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[14:53:02]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[14:53:02]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[14:53:02]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[14:53:02]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:53:02]          |           Y:::::Y                    S:::::S   I::::I      |
+[14:53:02]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[14:53:02]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[14:53:02]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[14:53:02]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[14:53:02]          |                                                            |
+[14:53:02]          |                                                            |
+[14:53:02]          |                      (c) 2021 MPL v1.1                     |
+[14:53:02]          |            Alex "Y_Less" Cole and contributors.            |
+[14:53:02]          |                                                            |
+[14:53:02]          |                                                            |
+[14:53:02]          ==============================================================
+[14:53:02]  
+[14:53:02]  
+[14:53:02]  ========================================== 
+[14:53:02]  |                                        | 
+[14:53:02]  |   Generating code, this may take a     | 
+[14:53:02]  |  little bit of time.  Note that this   | 
+[14:53:02]  |  code generation works best with the   | 
+[14:53:02]  |     JIT plugin, which you are not      | 
+[14:53:02]  |     currently using.  Get it here:     | 
+[14:53:02]  |                                        | 
+[14:53:02]  |       https://git.io/jit-plugin        | 
+[14:53:02]  |                                        | 
+[14:53:02]  |             Please wait...             | 
+[14:53:04]  |                                        | 
+[14:53:04]  |             Done in 1968ms!            | 
+[14:53:04]  |                                        | 
+[14:53:04]  ========================================== 
+[14:53:04]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[14:53:04] *** YSI Info: Script ID: 1
+[14:53:04]  |                                        | 
+[14:53:04]  | Server:      0.3.7-R2 (W)              | 
+[14:53:04]  | Started:     29 Jul 2025 - 14:53:02    | 
+[14:53:04]  |                                        | 
+[14:53:04]  | Compiler:    3.10.08 (Windows)         | 
+[14:53:04]  | Includes:    0.3DL                     | 
+[14:53:04]  | Codepage:    <none>                    | 
+[14:53:04]  | Built:       29 Jul 2025 - 14:52:06    | 
+[14:53:04]  |                                        | 
+[14:53:04]  | YSI:         v05.10.0006               | 
+[14:53:04]  | Master:      1                         | 
+[14:53:04]  |                                        | 
+[14:53:04]  | JIT:         <none>                    | 
+[14:53:04]  | Crashdetect: <found>                   | 
+[14:53:04]  |                                        | 
+[14:53:04]  ========================================== 
+[14:53:04]  
+[14:53:04]  
+[14:53:04] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3 DL by Abyss Morgan
+[14:53:04] [MySQL] Koneksi ke database berhasil!
+[14:53:04] [Anti-DDoS SA-MP] Telah berhasil dimuat dengan lancar.
+[14:53:04] |----------------------------------|
+[14:53:04] | GRIFFIN Premiere | A4-RC-Version |
+[14:53:04] |----------------------------------|
+[14:53:04] Number of vehicle models: 4
+[14:53:04] [Dynamic Doors] Jumlah total Doors yang dimuat: 43.
+[14:53:04] [Dynamic Garbages] Jumlah total Garbages Bin yang dimuat: 497.
+[14:53:04] [Dynamic Shops] Jumlah total Shops yang dimuat: 43.
+[14:53:04] [Dynamic Fivem Labels] The total number of Fivem Labels loaded: 1.
+[14:53:04] [Dynamic Public Garages] Jumlah total Public Garages yang dimuat: 33.
+[14:53:04] [Dynamic Rentals] Total number of loaded Rentals: 6.
+[14:53:04] [Dynamic Actors] Jumlah total Actors yang dimuat: 99.
+[14:53:04] [Dynamic ATM] Jumlah total ATM yang dimuat: 55.
+[14:53:04] [Dynamic Bank Point] Jumlah total bank point yang dimuat: 8.
+[14:53:04] [Dynamic Vending] Total dynamic vending loaded: 50.
+[14:53:04] [Dynamic Robberies] Jumlah total Robberies yang dimuat: 21.
+[14:53:04] [Dynamic Map Icons] Jumlah total map icons yang dimuat: 49.
+[14:53:04] [Dynamic Rusun] Total number of rusun loaded: 72.
+[14:53:04] [Dynamic Gudang] Total number of gudang loaded: 3.
+[14:53:04] [Dynamic Basement] Jumlah total basement yang dimuat: 1.
+[14:53:04] [Dynamic Buttons] Jumlah total buttons yang dimuat: 22.
+[14:53:04] [Dynamic Kanabis] Jumlah total Kanabis yang dimuat: 23.
+[14:53:04] [Dynamic Deers] Jumlah total Deers yang dimuat: 100.
+[14:53:04] [Dynamic Families] Jumlah total Family yang dimuat: 1.
+[14:53:04] [Dynamic Locker] Jumlah total Locker yang dimuat: 11.
+[14:53:04] [Dynamic Fact Craft] Jumlah total Fact Craft yang dimuat: 1.
+[14:53:04] [Dynamic Armoury] Jumlah total Armoury yang dimuat: 3.
+[14:53:04] [Dynamic Faction Vault] Jumlah total Faction Vault yang dimuat: 11.
+[14:53:04] [Dynamic Faction Garage] Jumlah total Faction Garage yang dimuat: 11.
+[14:53:05] [Dynamic Roadsigns] Total dynamic road sign loaded: 747.
+[14:53:05] [Dynamic Speed Cam] Total dynamic speed cam loaded: 127.
+[14:53:05] [Dynamic Blackjack] Jumlah total Blackjack Table yang dimuat: 18.
+[14:53:05] [Stuffs] Server Stuff berhasil dimuat...
+[14:53:05] [Farm Plants] Jumlah total farm plants yang dimuat: 1.
+[14:54:39] [connection] incoming connection: 192.168.122.175:55596 id: 0
+[14:54:39] [join] Griffin has joined the server (0:192.168.122.175)
+[14:54:46] [nick] Griffin nick changed to Yee_DONG
+[14:54:46] [Player Weapons] Total number of weapons loaded for Griffin [DBID: 7]: 1.
+[14:54:46] [Player Smartphone Loaded] Griffin [DBID: 7]
+[14:54:46] [Player Inventory] Total number of inventory items loaded for Griffin [DBID: 7]: 3.
+[14:54:46] [Player Vehicle] Jumlah total Vehicle yang dimuat untuk Griffin [DBID: 7]: 1.
+[14:55:30] [nick] Yee_DONG nick changed to Griffin
+[14:55:30] [debug]
+[14:55:30] [debug] Parameter count corrections:
+[14:55:30] [debug]
+[14:55:30] [debug] The 1st mangled arguments (e.g. `<1073741823 arguments>`) below should read `<2 arguments>`
+[14:55:30] [debug] Parameter count loop detected.
+[14:55:30] [debug]
+[14:55:30] [debug] Run time error 4: "Array index out of bounds"
+[14:55:30] [debug]  Attempted to read/write array element at index 99 in array of size 7
+[14:55:30] [debug] AMX backtrace:
+[14:55:30] [debug] #0 006663f8 in GetAdminLevel (playerid=0) at core/systems\systems_natives.inc:3082
+[14:55:30] [debug] #1 0073b930 in ?? (0, 17586360, 0) at core/admin/admin_lv1.inc:558
+[14:55:30] [debug] #2 0005e35c in e_COMMAND_ERRORS:Command_ReProcess__ (playerid=0, cmdtext[]=@05aa02ac "/aduty", help=0) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:1132
+[14:55:30] [debug] #3 00063d7c in _@yHOnPlayerCommandText@000 (playerid=0, cmdtext[]=@05aa02ac "/aduty") <@Z:> at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\y_commands_impl.inc:2478
+[14:55:30] [debug] #4 000472a4 in public OnPlayerCommandText (0, 95027884) at C:\Users\admin\Desktop\REMAKE\pawno\include\YSI_Visual\y_commands\..\..\YSI_Coding\y_hooks\..\y_cgen\y_cgen_impl.inc:157
+[15:02:22] [part] Griffin has left the server (0:1)
